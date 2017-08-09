@@ -83,4 +83,8 @@ class PagesController extends Controller
     {
         //
     }
+    
+    public function page404(){
+        return view('errors.404');
+}
 }

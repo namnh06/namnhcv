@@ -74,7 +74,7 @@
 				<li>
 					<a href="category.html">Blog</a>
 					<ul>
-						<li><a href="404.html">404 Page</a></li>
+						<li><a href="{{route('404')}}">404 Page</a></li>
 					</ul>
 				</li>
 				<li><a href="#calendar">Calendar <span></span></a></li>

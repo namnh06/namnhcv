@@ -10,7 +10,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 Route::group(['prefix'=>'/'],function(){
    Route::get('/','FrontEnd\PagesController@index')->name('index');
+   Route::get('404','FrontEnd\PagesController@page404')->name('404');
 });
 
