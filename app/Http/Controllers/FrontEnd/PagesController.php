@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\FrontEnd;
 
+use App\Resume;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -17,7 +18,7 @@ class PagesController extends Controller
         //
         return view('frontend.index');
     }
-
+    
     /**
      * Show the form for creating a new resource.
      *
@@ -27,56 +28,61 @@ class PagesController extends Controller
     {
         //
     }
-
+    
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \Illuminate\Http\Request $request
+     *
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
     {
         //
     }
-
+    
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  int $id
+     *
      * @return \Illuminate\Http\Response
      */
     public function show($id)
     {
         //
     }
-
+    
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  int $id
+     *
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
     {
         //
     }
-
+    
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \Illuminate\Http\Request $request
+     * @param  int                      $id
+     *
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
     {
         //
     }
-
+    
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  int $id
+     *
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
@@ -84,7 +90,18 @@ class PagesController extends Controller
         //
     }
     
-    public function page404(){
+    public function page404()
+    {
         return view('errors.404');
-}
+    }
+    
+    public function downloadResume()
+    {
+        //not yet, please create upload resume first
+        $resume = Resume::all()->last();
+        $pathToFile = base_path(). '/storage/app/'.$resume->original_file_name;
+        $date = str_replace('-', '_',$resume->created_at->toDateString());
+        $name = $date . '_' . $resume->original_file_name;
+        return response()->download($pathToFile, $name);
+    }
 }

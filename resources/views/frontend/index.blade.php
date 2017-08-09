@@ -63,7 +63,7 @@
 					</div>
 
 					<div class="section-txt-btn">
-						<p><a class="btn btn-lg btn-border ripple" target="_blank" href="http://dev.novembit.com/rs_card/wp-content/uploads/2015/11/test-1.pdf">Download Resume</a></p>
+						<p><a class="btn btn-lg btn-border ripple" target="_blank" href="{{route('download-resume')}}">Download Resume</a></p>
 						<p>Hello! I’m Nam Nguyen Hai. Web Developer specializing in back end development. Experienced with all stages of the development cycle for dynamic web projects. Well-versed in numerous programming languages including JavaScript,
 							SQL, and C. Stng background in project management and customer relations.</p>
 					</div>
