@@ -15,7 +15,7 @@ class PagesController extends Controller
     public function index()
     {
         //
-        return view('frontend.master');
+        return view('frontend.index');
     }
 
     /**
