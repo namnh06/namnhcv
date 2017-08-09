@@ -19,7 +19,6 @@ class AdminLogin
         if(Auth::user()){
             return $next($request);
         } else {
-            dd('abc');
             return redirect()->route('admin-get-login');
         }
     }
