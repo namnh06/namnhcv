@@ -19,32 +19,32 @@
 									<div class="profile-info">
 										<div class="profile-preword"><span>Hello</span></div>
 										<h1 class="profile-title"><span>I'm</span> Nam Nguyen Hai</h1>
-										<h2 class="profile-position">Developer and businessman</h2>
+										<h2 class="profile-position">Website Developer and Businessman</h2>
 									</div>
 									<ul class="profile-list">
 										<li class="clearfix">
 											<strong class="title">Age</strong>
-											<span class="cont">29</span>
+											<span class="cont">26</span>
 										</li>
 										<li class="clearfix">
 											<strong class="title">Address</strong>
-											<span class="cont">24058, Belgium, Brussels, Liutte 27, BE</span>
+											<span class="cont">K01b/95 Le Trong Tan St, Thanh Khe District, Da Nang City, VN</span>
 										</li>
 										<li class="clearfix">
 											<strong class="title">E-mail</strong>
-											<span class="cont"><a href="mailto:robertsmith@company.com">robertsmith@company.com</a></span>
+											<span class="cont"><a href="mailto:namnh.webiste@gmail.com">namnh.webiste@gmail.com</a></span>
 										</li>
 										<li class="clearfix">
 											<strong class="title">Phone</strong>
-											<span class="cont"><a href="tel:+12562548456">+1 256 254 84 56</a></span>
+											<span class="cont"><a href="tel:+84932578992">+84 932 578 992</a></span>
 										</li>
 										<li class="clearfix">
 											<strong class="title">Freelance</strong>
-											<span class="cont">till April 15, 2016</span>
+											<span class="cont">from October, 2016</span>
 										</li>
 										<li class="clearfix">
-											<strong class="title"><span class="button">On Vacation</span></strong>
-											<span class="cont"><i class="rsicon rsicon-calendar"></i>till March 25, 2016</span>
+											<strong class="title"><span class="button">Available</span></strong>
+											<span class="cont"><i class="rsicon rsicon-calendar"></i>till September, 2017</span>
 										</li>
 									</ul>
 								</div>
@@ -64,7 +64,7 @@
 
 					<div class="section-txt-btn">
 						<p><a class="btn btn-lg btn-border ripple" target="_blank" href="http://dev.novembit.com/rs_card/wp-content/uploads/2015/11/test-1.pdf">Download Resume</a></p>
-						<p>Hello! I’m Nam Nguyen Hai. Senior Web Developer specializing in front end development. Experienced with all stages of the development cycle for dynamic web projects. Well-versed in numerous programming languages including JavaScript,
+						<p>Hello! I’m Nam Nguyen Hai. Web Developer specializing in back end development. Experienced with all stages of the development cycle for dynamic web projects. Well-versed in numerous programming languages including JavaScript,
 							SQL, and C. Stng background in project management and customer relations.</p>
 					</div>
 				</div>
@@ -83,7 +83,7 @@
 										<span class="bar-value">80%</span>
 									</div>
 									<div class="bar-line">
-										<span class="bar-fill" data-width="51%"></span>
+										<span class="bar-fill" data-width="80%"></span>
 									</div>
 								</div>
 							</div>

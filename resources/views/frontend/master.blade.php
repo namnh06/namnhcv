@@ -72,10 +72,7 @@
 				<li><a href="#experience">Experience</a></li>
 				<li><a href="#references">References</a></li>
 				<li>
-					<a href="category.html">Blog</a>
-					<ul>
-						<li><a href="{{route('404')}}">404 Page</a></li>
-					</ul>
+					<a href="#">Blog</a>
 				</li>
 				<li><a href="#calendar">Calendar <span></span></a></li>
 				<li><a href="#contact">Contact <span></span></a></li>
@@ -160,7 +157,7 @@
 			<div class="head-bar-inner">
 				<div class="row">
 					<div class="col-sm-3 col-xs-6">
-						<a class="logo" href="index.html"><span>RS</span>card</a>
+						<a class="logo" href="index.html"><span>Nam</span> Nguyen Hai</a>
 						<!-- <a class="head-logo" href=""><img src="asset/frontend/img/rs-logo.png" alt="RScard"/></a> -->
 					</div>
 
@@ -174,10 +171,7 @@
 									<li><a href="#experience">Experience</a></li>
 									<li><a href="#references">References</a></li>
 									<li>
-										<a href="category.html">Blog</a>
-										<ul>
-											<li><a href="404.html">404 Page</a></li>
-										</ul>
+										<a href="#">Blog</a>
 									</li>
 									<li><a href="#calendar">Calendar <span></span></a></li>
 									<li><a href="#contact">Contact <span></span></a></li>
