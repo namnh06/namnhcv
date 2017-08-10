@@ -29,5 +29,7 @@ Route::get('/get-upload-resume','Admin\PagesController@getUploadResume')->name('
 Route::post('/post-upload-resume','Admin\PagesController@postUploadResume')->name('admin-post-upload-resume');
     Route::get('get-work-experience','Admin\PagesController@getWorkExperience')->name('admin-get-work-experience');
     Route::post('post-work-experience','Admin\PagesController@postWorkExperience')->name('admin-post-work-experience');
+    Route::get('get-education-experience','Admin\PagesController@getEducationExperience')->name('admin-get-education-experience');
+    Route::post('post-education-experience','Admin\PagesController@postEducationExperience')->name('admin-post-education-experience');
 });
 

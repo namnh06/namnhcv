@@ -18,9 +18,9 @@ class PagesController extends Controller
     public function index()
     {
         //
-        $workLeft = DB::table('work_experiences')->where('position','0')->get();
-        $workRight = DB::table('work_experiences')->where('position','1')->get();
-        return view('frontend.index',compact('workLeft','workRight'));
+        $works = DB::table('work_experiences')->get();
+        $educations = DB::table('education_experiences')->get();
+        return view('frontend.index',compact('works','educations'));
     }
     
     /**

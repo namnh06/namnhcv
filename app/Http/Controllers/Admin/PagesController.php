@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\EducationExperience;
 use App\Http\Requests\AdminLoginFromRequest;
+use App\Http\Requests\EducationExperienceFormRequest;
 use App\Http\Requests\WorkExperienceFormRequest;
 use App\Resume;
 use App\WorkExperience;
@@ -69,4 +71,22 @@ class PagesController extends Controller
         
         return redirect()->route('admin-get-work-experience')->with('status','Add new successfully !');
     }
+    
+    public function getEducationExperience(){
+        return view('admin.education-experience');
+    }
+    
+    public function postEducationExperience(EducationExperienceFormRequest $request){
+        $edu = new EducationExperience();
+        $edu->start = $request->start;
+        $edu->end = $request->end;
+        $edu->certificate = $request->certificate;
+        $edu->school = $request->school;
+        $edu->position = $request->position;
+        
+        $edu->save();
+        
+        return redirect()->route('admin-get-education-experience')->with('status','Add new successfully !');
+    }
+    
 }

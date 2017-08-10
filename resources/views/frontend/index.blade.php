@@ -13,12 +13,16 @@
 						<div class="profile">
 							<div class="row">
 								<div class="col-xs-5">
-									<div class="profile-photo"><img src="asset/frontend/img/uploads/rs-photo-v1.jpg" alt="Nam Nguyen Hai" /></div>
+									<div class="profile-photo">
+										<img src="asset/frontend/img/uploads/rs-photo-v1.jpg"
+											 alt="Nam Nguyen Hai"/></div>
 								</div>
 								<div class="col-xs-7">
 									<div class="profile-info">
-										<div class="profile-preword"><span>Hello</span></div>
-										<h1 class="profile-title"><span>I'm</span> Nam Nguyen Hai</h1>
+										<div class="profile-preword">
+											<span>Hello</span></div>
+										<h1 class="profile-title">
+											<span>I'm</span> Nam Nguyen Hai</h1>
 										<h2 class="profile-position">Website Developer and Businessman</h2>
 									</div>
 									<ul class="profile-list">
@@ -52,18 +56,36 @@
 						</div>
 						<div class="profile-social">
 							<ul class="social">
-								<li><a class="ripple-centered" href="https://www.facebook.com/hainam37k16.1" target="_blank"><i class="rsicon rsicon-facebook"></i></a></li>
-								<li><a class="ripple-centered" href="https://twitter.com" target="_blank"><i class="rsicon rsicon-twitter"></i></a></li>
-								<li><a class="ripple-centered" href="https://www.linkedin.com" target="_blank"><i class="rsicon rsicon-linkedin"></i></a></li>
-								<li><a class="ripple-centered" href="https://plus.google.com" target="_blank"><i class="rsicon rsicon-google-plus"></i></a></li>
+								<li><a class="ripple-centered"
+									   href="https://www.facebook.com/hainam37k16.1"
+									   target="_blank"><i class="rsicon rsicon-facebook"></i></a>
+								</li>
+								<li><a class="ripple-centered"
+									   href="https://twitter.com"
+									   target="_blank"><i class="rsicon rsicon-twitter"></i></a>
+								</li>
+								<li><a class="ripple-centered"
+									   href="https://www.linkedin.com"
+									   target="_blank"><i class="rsicon rsicon-linkedin"></i></a>
+								</li>
+								<li><a class="ripple-centered"
+									   href="https://plus.google.com"
+									   target="_blank"><i class="rsicon rsicon-google-plus"></i></a>
+								</li>
 								{{--<li><a class="ripple-centered" href="https://dribbble.com" target="_blank"><i class="rsicon rsicon-dribbble"></i></a></li>--}}
-								<li><a class="ripple-centered" href="https://www.instagram.com" target="_blank"><i class="rsicon rsicon-instagram"></i></a></li>
+								<li><a class="ripple-centered"
+									   href="https://www.instagram.com"
+									   target="_blank"><i class="rsicon rsicon-instagram"></i></a>
+								</li>
 							</ul>
 						</div>
 					</div>
 
 					<div class="section-txt-btn">
-						<p><a class="btn btn-lg btn-border ripple" target="_blank" href="{{route('download-resume')}}">Download Resume</a></p>
+						<p><a class="btn btn-lg btn-border ripple"
+							  target="_blank"
+							  href="{{route('download-resume')}}">Download Resume</a>
+						</p>
 						<p>Hello! I’m Nam Nguyen Hai. Web Developer specializing in back end development. I have a passion for technology. So, after graduated at Da Nang University of Economics, i decided to become a website developer. Then, i'm here with my skills : PHP, SQL, HTML, CSS, JavaScript and some Framework.</p>
 					</div>
 				</div>
@@ -82,7 +104,8 @@
 										<span class="bar-value">80%</span>
 									</div>
 									<div class="bar-line">
-										<span class="bar-fill" data-width="80%"></span>
+										<span class="bar-fill"
+											  data-width="80%"></span>
 									</div>
 								</div>
 							</div>
@@ -94,7 +117,8 @@
 										<span class="bar-value">80%</span>
 									</div>
 									<div class="bar-line">
-										<span class="bar-fill" data-width="80%"></span>
+										<span class="bar-fill"
+											  data-width="80%"></span>
 									</div>
 								</div>
 							</div>
@@ -108,7 +132,8 @@
 										<span class="bar-value">80%</span>
 									</div>
 									<div class="bar-line">
-										<span class="bar-fill" data-width="80%"></span>
+										<span class="bar-fill"
+											  data-width="80%"></span>
 									</div>
 								</div>
 							</div>
@@ -120,7 +145,8 @@
 										<span class="bar-value">85%</span>
 									</div>
 									<div class="bar-line">
-										<span class="bar-fill" data-width="85%"></span>
+										<span class="bar-fill"
+											  data-width="85%"></span>
 									</div>
 								</div>
 							</div>
@@ -134,7 +160,8 @@
 										<span class="bar-value">100%</span>
 									</div>
 									<div class="bar-line">
-										<span class="bar-fill" data-width="100%"></span>
+										<span class="bar-fill"
+											  data-width="100%"></span>
 									</div>
 								</div>
 							</div>
@@ -146,7 +173,8 @@
 										<span class="bar-value">75%</span>
 									</div>
 									<div class="bar-line">
-										<span class="bar-fill" data-width="75%"></span>
+										<span class="bar-fill"
+											  data-width="75%"></span>
 									</div>
 								</div>
 							</div>
@@ -179,25 +207,38 @@
 						<div class="grid-item size22 photography">
 							<div class="grid-box">
 								<figure class="portfolio-figure">
-									<img src="asset/frontend/img/uploads/portfolio/portfolio-thumb-05-610x600.jpg" alt="" />
+									<img src="asset/frontend/img/uploads/portfolio/portfolio-thumb-05-610x600.jpg"
+										 alt=""/>
 									<figcaption class="portfolio-caption">
 										<div class="portfolio-caption-inner">
 											<h3 class="portfolio-title">Street Photography</h3>
 											<h4 class="portfolio-cat">Photography</h4>
 
 											<div class="btn-group">
-												<a class="btn-link" href="http://bit.ly/1YtB8he" target="_blank"><i class="rsicon rsicon-link"></i></a>
-												<a class="portfolioFancybox btn-zoom" data-fancybox-group="portfolioFancybox1" href="#portfolio1-inline1"><i class="rsicon rsicon-eye"></i></a>
-												<a class="portfolioFancybox hidden" data-fancybox-group="portfolioFancybox1" href="#portfolio1-inline2"></a>
-												<a class="portfolioFancybox hidden" data-fancybox-group="portfolioFancybox1" href="#portfolio1-inline3"></a>
+												<a class="btn-link"
+												   href="http://bit.ly/1YtB8he"
+												   target="_blank"><i class="rsicon rsicon-link"></i></a>
+												<a class="portfolioFancybox btn-zoom"
+												   data-fancybox-group="portfolioFancybox1"
+												   href="#portfolio1-inline1"><i
+															class="rsicon rsicon-eye"></i></a>
+												<a class="portfolioFancybox hidden"
+												   data-fancybox-group="portfolioFancybox1"
+												   href="#portfolio1-inline2"></a>
+												<a class="portfolioFancybox hidden"
+												   data-fancybox-group="portfolioFancybox1"
+												   href="#portfolio1-inline3"></a>
 											</div>
 										</div>
 									</figcaption>
 								</figure>
 
 								<!-- Start: Portfolio Inline Boxes -->
-								<div id="portfolio1-inline1" class="fancybox-inline-box">
-									<div class="inline-embed" data-embed-type="image" data-embed-url="img/uploads/portfolio/portfolio-thumb-05-large.jpg"></div>
+								<div id="portfolio1-inline1"
+									 class="fancybox-inline-box">
+									<div class="inline-embed"
+										 data-embed-type="image"
+										 data-embed-url="img/uploads/portfolio/portfolio-thumb-05-large.jpg"></div>
 									<div class="inline-cont">
 										<h2 class="inline-title">Street photography is photography that features the chance encounters and random accidents within public places.</h2>
 										<div class="inline-text">
@@ -207,8 +248,11 @@
 									</div>
 								</div>
 
-								<div id="portfolio1-inline2" class="fancybox-inline-box">
-									<div class="inline-embed" data-embed-type="image" data-embed-url="img/uploads/portfolio/portfolio-thumb-01-large.jpg"></div>
+								<div id="portfolio1-inline2"
+									 class="fancybox-inline-box">
+									<div class="inline-embed"
+										 data-embed-type="image"
+										 data-embed-url="img/uploads/portfolio/portfolio-thumb-01-large.jpg"></div>
 									<div class="inline-cont">
 										<div class="inline-text">
 											<h2 class="inline-title">Framing and timing</h2>
@@ -218,8 +262,11 @@
 									</div>
 								</div>
 
-								<div id="portfolio1-inline3" class="fancybox-inline-box">
-									<div class="inline-embed" data-embed-type="iframe" data-embed-url="https://player.vimeo.com/video/118244244"></div>
+								<div id="portfolio1-inline3"
+									 class="fancybox-inline-box">
+									<div class="inline-embed"
+										 data-embed-type="iframe"
+										 data-embed-url="https://player.vimeo.com/video/118244244"></div>
 									<div class="inline-cont">
 										<div class="inline-text">
 											<h2 class="inline-title">A Look Into Documenting Street Fashion Photography</h2>
@@ -236,22 +283,29 @@
 						<div class="grid-item size11 bridge">
 							<div class="grid-box">
 								<figure class="portfolio-figure">
-									<img src="asset/frontend/img/uploads/portfolio/portfolio-thumb-11-289x281.jpg" alt="" />
+									<img src="asset/frontend/img/uploads/portfolio/portfolio-thumb-11-289x281.jpg"
+										 alt=""/>
 									<figcaption class="portfolio-caption">
 										<div class="portfolio-caption-inner">
 											<h3 class="portfolio-title">Suspension Bridge</h3>
 											<h4 class="portfolio-cat">Bridge</h4>
 
 											<div class="btn-group">
-												<a class="btn-link" href="http://bit.ly/1YtB8he" target="_blank"><i class="rsicon rsicon-link"></i></a>
-												<a class="portfolioFancybox btn-zoom" data-fancybox-group="portfolioFancybox2" href="#portfolio2-inline1"><i class="rsicon rsicon-eye"></i></a>
+												<a class="btn-link"
+												   href="http://bit.ly/1YtB8he"
+												   target="_blank"><i class="rsicon rsicon-link"></i></a>
+												<a class="portfolioFancybox btn-zoom"
+												   data-fancybox-group="portfolioFancybox2"
+												   href="#portfolio2-inline1"><i
+															class="rsicon rsicon-eye"></i></a>
 											</div>
 										</div>
 									</figcaption>
 								</figure>
 
 								<!-- Start: Portfolio Inline Boxes -->
-								<div id="portfolio2-inline1" class="fancybox-inline-box">
+								<div id="portfolio2-inline1"
+									 class="fancybox-inline-box">
 									<div class="inline-cont">
 										<h2 class="inline-title">Suspension Bridges - Design Technology</h2>
 										<div class="inline-text">
@@ -279,33 +333,52 @@
 						<div class="grid-item size11 nature photography">
 							<div class="grid-box">
 								<figure class="portfolio-figure">
-									<img src="asset/frontend/img/uploads/portfolio/portfolio-thumb-08-289x281.jpg" alt="" />
+									<img src="asset/frontend/img/uploads/portfolio/portfolio-thumb-08-289x281.jpg"
+										 alt=""/>
 									<figcaption class="portfolio-caption">
 										<div class="portfolio-caption-inner">
 											<h3 class="portfolio-title">Rocky Mountains</h3>
 											<h4 class="portfolio-cat">Nature, Photography</h4>
 
 											<div class="btn-group">
-												<a class="btn-link" href="http://bit.ly/1YtB8he" target="_blank"><i class="rsicon rsicon-link"></i></a>
-												<a class="portfolioFancybox btn-zoom" data-fancybox-group="portfolioFancybox3" href="#portfolio3-inline1"><i class="rsicon rsicon-eye"></i></a>
-												<a class="portfolioFancybox hidden" data-fancybox-group="portfolioFancybox3" href="#portfolio3-inline2"></a>
-												<a class="portfolioFancybox hidden" data-fancybox-group="portfolioFancybox3" href="#portfolio3-inline3"></a>
+												<a class="btn-link"
+												   href="http://bit.ly/1YtB8he"
+												   target="_blank"><i class="rsicon rsicon-link"></i></a>
+												<a class="portfolioFancybox btn-zoom"
+												   data-fancybox-group="portfolioFancybox3"
+												   href="#portfolio3-inline1"><i
+															class="rsicon rsicon-eye"></i></a>
+												<a class="portfolioFancybox hidden"
+												   data-fancybox-group="portfolioFancybox3"
+												   href="#portfolio3-inline2"></a>
+												<a class="portfolioFancybox hidden"
+												   data-fancybox-group="portfolioFancybox3"
+												   href="#portfolio3-inline3"></a>
 											</div>
 										</div>
 									</figcaption>
 								</figure>
 
 								<!-- Start: Portfolio Inline Boxes -->
-								<div id="portfolio3-inline1" class="fancybox-inline-box">
-									<div class="inline-embed" data-embed-type="image" data-embed-url="img/uploads/portfolio/portfolio-thumb-08-large.jpg"></div>
+								<div id="portfolio3-inline1"
+									 class="fancybox-inline-box">
+									<div class="inline-embed"
+										 data-embed-type="image"
+										 data-embed-url="img/uploads/portfolio/portfolio-thumb-08-large.jpg"></div>
 								</div>
 
-								<div id="portfolio3-inline2" class="fancybox-inline-box">
-									<div class="inline-embed" data-embed-type="image" data-embed-url="img/uploads/portfolio/portfolio-thumb-04-large.jpg"></div>
+								<div id="portfolio3-inline2"
+									 class="fancybox-inline-box">
+									<div class="inline-embed"
+										 data-embed-type="image"
+										 data-embed-url="img/uploads/portfolio/portfolio-thumb-04-large.jpg"></div>
 								</div>
 
-								<div id="portfolio3-inline3" class="fancybox-inline-box">
-									<div class="inline-embed" data-embed-type="image" data-embed-url="img/uploads/portfolio/portfolio-thumb-02-large.jpg"></div>
+								<div id="portfolio3-inline3"
+									 class="fancybox-inline-box">
+									<div class="inline-embed"
+										 data-embed-type="image"
+										 data-embed-url="img/uploads/portfolio/portfolio-thumb-02-large.jpg"></div>
 								</div>
 								<!-- End: Portfolio Inline Boxes -->
 							</div>
@@ -315,7 +388,8 @@
 
 					<div class="grid-more">
 						<span class="ajax-loader"></span>
-						<button class="btn btn-border ripple"><i class="rsicon rsicon-add"></i></button>
+						<button class="btn btn-border ripple">
+							<i class="rsicon rsicon-add"></i></button>
 					</div>
 				</div>
 			</section>
@@ -328,21 +402,23 @@
 					<div class="timeline">
 						<div class="timeline-bar"></div>
 						<div class="timeline-inner clearfix">
-							@foreach($workLeft as $work)
-							<div class="timeline-box timeline-box-left">
-								<span class="dot"></span>
-								<div class="timeline-box-inner animate-right">
-									<span class="arrow"></span>
-									<div class="date">{{$work->start}} - {{$work->end}}</div>
-									<h3>{{$work->company}}</h3>
-									<h4>{{$work->job_title}}</h4>
-									<p>{!! $work->description !!}</p>
-									<i><h4><b>Reference : {{$work->reference}} - {{$work->phone}}</b></h4></i>
-								</div>
-							</div>
-							@endforeach
+							@foreach($works as $work)
+								@if($work->position == 0)
+									<div class="timeline-box timeline-box-left">
+										<span class="dot"></span>
+										<div class="timeline-box-inner animate-right">
+											<span class="arrow"></span>
+											<div class="date">{{$work->start}} - {{$work->end}}</div>
+											<h3>{{$work->company}}</h3>
+											<h4>{{$work->job_title}}</h4>
+											<p>{!! $work->description !!}</p>
+											<i><h4>
+													<b>Reference : {{$work->reference}} - {{$work->phone}}</b>
+												</h4></i>
+										</div>
+									</div>
+								@else
 
-								@foreach($workRight as $work)
 									<div class="timeline-box timeline-box-right">
 										<span class="dot"></span>
 										<div class="timeline-box-inner animate-left">
@@ -351,10 +427,13 @@
 											<h3>{{$work->company}}</h3>
 											<h4>{{$work->job_title}}</h4>
 											<p>{!! $work->description !!}</p>
-											<i><h4><b>Reference : {{$work->reference}} - {{$work->phone}}</b></h4></i>
+											<i><h4>
+													<b>Reference : {{$work->reference}} - {{$work->phone}}</b>
+												</h4></i>
 										</div>
 									</div>
-								@endforeach
+								@endif
+							@endforeach
 
 						</div>
 					</div>
@@ -369,60 +448,36 @@
 						<div class="timeline-bar"></div>
 						<div class="timeline-inner clearfix">
 
-							<div class="timeline-box timeline-box-compact timeline-box-left">
-								<span class="dot"></span>
+							@foreach($educations as $education)
+								@if($education->position == 0)
+									<div class="timeline-box timeline-box-compact timeline-box-left">
+										<span class="dot"></span>
 
-								<div class="timeline-box-inner animate-right">
-									<span class="arrow"></span>
-									<div class="date"><span>2012 - 2014</span></div>
-									<h3>Master of Information Technology</h3>
-									<h4>MIT&T</h4>
-								</div>
-							</div>
+										<div class="timeline-box-inner animate-right">
+											<span class="arrow"></span>
+											<div class="date">
+												<span>{{$education->start}} - {{$education->end}}</span>
+											</div>
+											<h3>{{$education->certificate}}</h3>
+											<h4>{{$education->school}}</h4>
+										</div>
+									</div>
+								@else
 
-							<div class="timeline-box timeline-box-compact timeline-box-right">
-								<span class="dot"></span>
+									<div class="timeline-box timeline-box-compact timeline-box-right">
+										<span class="dot"></span>
 
-								<div class="timeline-box-inner animate-left">
-									<span class="arrow"></span>
-									<div class="date"><span>2008 - 2012</span></div>
-									<h3>Bachelor Computer Engineering</h3>
-									<h4>Harwarg Universitey</h4>
-								</div>
-							</div>
-
-							<div class="timeline-box timeline-box-compact timeline-box-left">
-								<span class="dot"></span>
-
-								<div class="timeline-box-inner animate-right">
-									<span class="arrow"></span>
-									<div class="date"><span>2007 - 2008</span></div>
-									<h3>Certificate for courses of Computer Science</h3>
-									<h4>Stanfoorb Universitey</h4>
-								</div>
-							</div>
-
-							<div class="timeline-box timeline-box-compact timeline-box-right">
-								<span class="dot"></span>
-
-								<div class="timeline-box-inner animate-left">
-									<span class="arrow"></span>
-									<div class="date"><span>2007 - 2008</span></div>
-									<h3>1 week Courses of Information Systems</h3>
-									<h4>Oxforz Universitey</h4>
-								</div>
-							</div>
-
-							<div class="timeline-box timeline-box-compact timeline-box-left">
-								<span class="dot"></span>
-
-								<div class="timeline-box-inner animate-right">
-									<span class="arrow"></span>
-									<div class="date"><span>2006 - 2007</span></div>
-									<h3>Software Engineering</h3>
-									<h4>Sordonne University</h4>
-								</div>
-							</div>
+										<div class="timeline-box-inner animate-left">
+											<span class="arrow"></span>
+											<div class="date">
+												<span>{{$education->start}} - {{$education->end}}</span>
+											</div>
+											<h3>{{$education->certificate}}</h3>
+											<h4>{{$education->school}}</h4>
+										</div>
+									</div>
+								@endif
+							@endforeach
 						</div>
 					</div>
 				</div>
@@ -434,39 +489,65 @@
 
 					<div class="clients-carousel">
 						<div class="client-logo">
-							<a href="http://market.envato.com" target="_blank"><img src="asset/frontend/img/uploads/logos/logo-envato.png" title="envato" alt="envato" /></a>
+							<a href="http://market.envato.com"
+							   target="_blank"><img src="asset/frontend/img/uploads/logos/logo-envato.png"
+													title="envato"
+													alt="envato"/></a>
 						</div>
 
 						<div class="client-logo">
-							<img src="asset/frontend/img/uploads/logos/logo-angularjs.png" title="angular js" alt="angular js" />
+							<img src="asset/frontend/img/uploads/logos/logo-angularjs.png"
+								 title="angular js"
+								 alt="angular js"/>
 						</div>
 
 						<div class="client-logo">
-							<a href="https://www.omniref.com/ruby/gems/teaspoon/0.7.9" target="_blank"><img src="asset/frontend/img/uploads/logos/logo-teaspoon.png" title="teaspoon" alt="teaspoon" /></a>
+							<a href="https://www.omniref.com/ruby/gems/teaspoon/0.7.9"
+							   target="_blank"><img src="asset/frontend/img/uploads/logos/logo-teaspoon.png"
+													title="teaspoon"
+													alt="teaspoon"/></a>
 						</div>
 
 						<div class="client-logo">
-							<a href="https://wordpress.com" target="_blank"><img src="asset/frontend/img/uploads/logos/logo-wordpress.png" title="wordpress" alt="wordpress" /></a>
+							<a href="https://wordpress.com" target="_blank"><img
+										src="asset/frontend/img/uploads/logos/logo-wordpress.png"
+										title="wordpress"
+										alt="wordpress"/></a>
 						</div>
 
 						<div class="client-logo">
-							<a href="https://evernote.com" target="_blank"><img src="asset/frontend/img/uploads/logos/logo-evernote.png" title="evernote" alt="evernote" /></a>
+							<a href="https://evernote.com" target="_blank"><img
+										src="asset/frontend/img/uploads/logos/logo-evernote.png"
+										title="evernote"
+										alt="evernote"/></a>
 						</div>
 
 						<div class="client-logo">
-							<a href="http://compass-style.org" target="_blank"><img src="asset/frontend/img/uploads/logos/logo-compass.png" title="compass" alt="compass" /></a>
+							<a href="http://compass-style.org"
+							   target="_blank"><img src="asset/frontend/img/uploads/logos/logo-compass.png"
+													title="compass"
+													alt="compass"/></a>
 						</div>
 
 						<div class="client-logo">
-							<a href="http://getbootstrap.com" target="_blank"><img src="asset/frontend/img/uploads/logos/logo-bootstrap.png" title="bootstrap" alt="bootstrap" /></a>
+							<a href="http://getbootstrap.com"
+							   target="_blank"><img src="asset/frontend/img/uploads/logos/logo-bootstrap.png"
+													title="bootstrap"
+													alt="bootstrap"/></a>
 						</div>
 
 						<div class="client-logo">
-							<a href="http://jasmine.github.io" target="_blank"><img src="asset/frontend/img/uploads/logos/logo-jasmine.png" title="jasmine" alt="jasmine" /></a>
+							<a href="http://jasmine.github.io"
+							   target="_blank"><img src="asset/frontend/img/uploads/logos/logo-jasmine.png"
+													title="jasmine"
+													alt="jasmine"/></a>
 						</div>
 
 						<div class="client-logo">
-							<a href="https://jquery.com" target="_blank"><img src="asset/frontend/img/uploads/logos/logo-jquery.png" title="jquery" alt="jquery" /></a>
+							<a href="https://jquery.com" target="_blank"><img
+										src="asset/frontend/img/uploads/logos/logo-jquery.png"
+										title="jquery"
+										alt="jquery"/></a>
 						</div>
 					</div>
 				</div>
@@ -484,7 +565,9 @@
 										<p>I confirm that I have dealt with New Company Ltd since 1998. Their work has been a major factor in our website's success, helping it to become one of the most visited resources of its kind on the Internet.</p>
 									</div>
 									<div class="person-info clearfix">
-										<img class="person-img" src="asset/frontend/img/uploads/rs-avatar-60x60.jpg" alt="Headshot">
+										<img class="person-img"
+											 src="asset/frontend/img/uploads/rs-avatar-60x60.jpg"
+											 alt="Headshot">
 										<div class="person-name-title">
 											<span class="person-name">Alexander Jokovich</span>
 											<span class="person-title">Modern LLC , HR</span>
@@ -498,7 +581,9 @@
 										<p>I confirm that New Company Ltd has been a customer of ours since 1998, during which time they have always made payments reliably, in full and on time.</p>
 									</div>
 									<div class="person-info clearfix">
-										<img class="person-img" src="asset/frontend/img/uploads/rs-avatar-60x60.jpg" alt="Headshot">
+										<img class="person-img"
+											 src="asset/frontend/img/uploads/rs-avatar-60x60.jpg"
+											 alt="Headshot">
 										<div class="person-name-title">
 											<span class="person-name">Alexander Jokovich</span>
 											<span class="person-title">Modern LLC , HR</span>
@@ -512,7 +597,9 @@
 										<p>I have known Nam Nguyen Hai for 10 years as web developer. I can confirm that he is a man of great integrity, is extremely dedicated to his family and work, and is entirely peace-loving.</p>
 									</div>
 									<div class="person-info clearfix">
-										<img class="person-img" src="asset/frontend/img/uploads/rs-avatar-60x60.jpg" alt="Headshot">
+										<img class="person-img"
+											 src="asset/frontend/img/uploads/rs-avatar-60x60.jpg"
+											 alt="Headshot">
 										<div class="person-name-title">
 											<span class="person-name">Alexander Jokovich</span>
 											<span class="person-title">Modern LLC , HR</span>
@@ -522,8 +609,10 @@
 							</li>
 						</ul>
 						<div class="ref-slider-nav">
-							<span id="ref-slider-prev" class="slider-prev"></span>
-							<span id="ref-slider-next" class="slider-next"></span>
+							<span id="ref-slider-prev"
+								  class="slider-prev"></span>
+							<span id="ref-slider-next"
+								  class="slider-next"></span>
 						</div>
 					</div>
 				</div>
@@ -590,7 +679,8 @@
 					<h2 class="section-title">Availability Calendar</h2>
 
 					<div class="calendar-busy" data-weekstart="monday">
-						<div class="calendar-today" style="background-image: url('asset/frontend/img/uploads/rs-calendar-cover.jpg')">
+						<div class="calendar-today"
+							 style="background-image: url('asset/frontend/img/uploads/rs-calendar-cover.jpg')">
 							<div class="valign-outer">
 								<div class="valign-middle">
 									<div class="valign-inner">
@@ -607,9 +697,12 @@
 						<div class="calendar-cont">
 							<div class="calendar-header">
 								<div class="calendar-nav">
-									<span class="active-date"><span class="active-month"></span><span class="active-year"></span></span>
-									<a class="calendar-prev ripple-centered" title="Prev"><i class="rsicon rsicon-chevron_left"></i></a>
-									<a class="calendar-next ripple-centered" title="Next"><i class="rsicon rsicon-chevron_right"></i></a>
+									<span class="active-date"><span class="active-month"></span><span
+												class="active-year"></span></span>
+									<a class="calendar-prev ripple-centered"
+									   title="Prev"><i class="rsicon rsicon-chevron_left"></i></a>
+									<a class="calendar-next ripple-centered"
+									   title="Next"><i class="rsicon rsicon-chevron_right"></i></a>
 								</div>
 							</div>
 
@@ -633,33 +726,45 @@
 							<div class="section-box contact-form">
 								<h3>Feel free to contact me</h3>
 
-								<form class="contactForm" action="php/contact_form.php" method="post">
+								<form class="contactForm"
+									  action="php/contact_form.php"
+									  method="post">
 									<div class="input-field">
-										<input class="contact-name" type="text" name="name" />
+										<input class="contact-name"
+											   type="text"
+											   name="name"/>
 										<span class="line"></span>
 										<label>Name</label>
 									</div>
 
 									<div class="input-field">
-										<input class="contact-email" type="email" name="email" />
+										<input class="contact-email"
+											   type="email"
+											   name="email"/>
 										<span class="line"></span>
 										<label>Email</label>
 									</div>
 
 									<div class="input-field">
-										<input class="contact-subject" type="text" name="subject" />
+										<input class="contact-subject"
+											   type="text"
+											   name="subject"/>
 										<span class="line"></span>
 										<label>Subject</label>
 									</div>
 
 									<div class="input-field">
-										<textarea class="contact-message" rows="4" name="message"></textarea>
+										<textarea class="contact-message"
+												  rows="4"
+												  name="message"></textarea>
 										<span class="line"></span>
 										<label>Message</label>
 									</div>
 
 									<span class="btn-outer btn-primary-outer ripple">
-											<input class="contact-submit btn btn-lg btn-primary" type="submit" value="Send"/>
+											<input class="contact-submit btn btn-lg btn-primary"
+												   type="submit"
+												   value="Send"/>
 										</span>
 
 									<div class="contact-response"></div>
@@ -684,7 +789,9 @@
 									</li>
 								</ul>
 
-								<div id="map" data-latitude="50.84592" data-longitude="4.366859999999974"></div>
+								<div id="map"
+									 data-latitude="50.84592"
+									 data-longitude="4.366859999999974"></div>
 							</div>
 						</div>
 					</div>
@@ -699,4 +806,4 @@
 		<!-- .container -->
 	</div>
 	<!-- .content -->
-	@endsection
+@endsection

@@ -228,6 +228,13 @@
 						</a>
 					</li>
 				</ul>
+				<ul class="sub-menu">
+					<li class="nav-item @yield('education-experience-active') ">
+						<a href="{{route('admin-get-education-experience')}}" class="nav-link ">
+							<span class="title">Education</span>
+						</a>
+					</li>
+				</ul>
 			</li>
 		</ul>
 		<!-- END SIDEBAR MENU -->

@@ -1,8 +1,8 @@
 @extends('admin.template.template')
 @section('home-active','start active open')
-@section('work-experience-active','start active open')
+@section('education-experience-active','start active open')
 @section('main-content')
-	@include('admin.template.content.work-experience-content')
+	@include('admin.template.content.education-experience-content')
 @endsection
 
 @section('css-page-level-plugins')
