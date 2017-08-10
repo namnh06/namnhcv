@@ -8,8 +8,6 @@
 	<meta name="title" content="Nam Nguyen Hai Resume">
 	<meta name="description" content="Nam's website, this is my resume, check it out !!!">
 	<meta property="og:title" content="Nam Nguyen Hai Resume" />
-	<meta property="og:type" content="Personal Webiste" />
-	<meta property="og:url" content="http://www.namnh.website/" />
 	<title>@yield('title')</title>
 	<base href="{{asset('')}}">
 	<!-- Favicon -->
