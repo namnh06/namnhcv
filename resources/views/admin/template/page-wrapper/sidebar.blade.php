@@ -217,7 +217,7 @@
 				<ul class="sub-menu">
 					<li class="nav-item @yield('download-resume-active') ">
 						<a href="{{route('admin-get-upload-resume')}}" class="nav-link ">
-							<span class="title">Upload Resume</span>
+							<span class="title">Upload1 Resume</span>
 						</a>
 					</li>
 				</ul>
