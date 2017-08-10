@@ -18,8 +18,8 @@ class PagesController extends Controller
     public function index()
     {
         //
-        $workLeft = DB::table('work_experiences')->where('position','0')->orderByDesc('id')->get();
-        $workRight = DB::table('work_experiences')->where('position','1')->orderByDesc('id')->get();
+        $workLeft = DB::table('work_experiences')->where('position','0')->get();
+        $workRight = DB::table('work_experiences')->where('position','1')->get();
         return view('frontend.index',compact('workLeft','workRight'));
     }
     
