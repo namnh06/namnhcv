@@ -88,7 +88,7 @@
 						</p>
 						<p><a class="btn btn-lg btn-border ripple"
 							  target="_blank"
-							  href="https://drive.google.com/drive/folders/0B3eGj7-o9viqRmw2cnFFQjRJVFU?usp=sharing">Wanna See My Certificate?</a>
+							  href="https://drive.google.com/drive/folders/0B3eGj7-o9viqRmw2cnFFQjRJVFU?usp=sharing">Wanna See My Certificate ?</a>
 						</p>
 						<p>Hello! I’m Nam Nguyen Hai. Web Developer specializing in back end development. I have a passion for technology. So, after graduated at Da Nang University of Economics, i decided to become a website developer. Then, i'm here with my skills : PHP, SQL, HTML, CSS, JavaScript and some Framework.</p>
 					</div>

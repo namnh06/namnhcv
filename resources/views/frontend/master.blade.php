@@ -189,6 +189,7 @@
 	</div>
 	<!-- .widget-area -->
 </div>
+
 <!-- .sidebar -->
 <div class="wrapper">
 	<header class="header">
