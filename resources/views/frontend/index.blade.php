@@ -460,7 +460,7 @@
 													@if($education->end != '')- {{$education->end}}
 												@endif</span>
 											</div>
-											<h3>{{$education->certificate}}</h3>
+											<h3>{!! $education->certificate !!}</h3>
 											<h4>{{$education->school}}</h4>
 										</div>
 									</div>
