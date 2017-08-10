@@ -27,10 +27,7 @@ Route::get('/dashboard','Admin\PagesController@dashboard')->name('admin-dashboar
 Route::get('logout','Admin\PagesController@logout')->name('admin-logout');
 Route::get('/get-upload-resume','Admin\PagesController@getUploadResume')->name('admin-get-upload-resume');
 Route::post('/post-upload-resume','Admin\PagesController@postUploadResume')->name('admin-post-upload-resume');
-
-//    Route::post('/post-login',function(){
-//        dd('ello');
-//    })->name('admin-post-login');
-
+    Route::get('get-work-experience','Admin\PagesController@getWorkExperience')->name('admin-get-work-experience');
+    Route::post('post-work-experience','Admin\PagesController@postWorkExperience')->name('admin-post-work-experience');
 });
 

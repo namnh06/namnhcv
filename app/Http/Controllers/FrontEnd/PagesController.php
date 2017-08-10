@@ -3,8 +3,10 @@
 namespace App\Http\Controllers\FrontEnd;
 
 use App\Resume;
+use App\WorkExperience;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
 
 class PagesController extends Controller
 {
@@ -16,7 +18,9 @@ class PagesController extends Controller
     public function index()
     {
         //
-        return view('frontend.index');
+        $workLeft = DB::table('work_experiences')->where('position','0')->orderByDesc('id')->get();
+        $workRight = DB::table('work_experiences')->where('position','1')->orderByDesc('id')->get();
+        return view('frontend.index',compact('workLeft','workRight'));
     }
     
     /**

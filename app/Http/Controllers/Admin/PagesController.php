@@ -3,7 +3,9 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Requests\AdminLoginFromRequest;
+use App\Http\Requests\WorkExperienceFormRequest;
 use App\Resume;
+use App\WorkExperience;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -46,5 +48,25 @@ class PagesController extends Controller
             return redirect()->route('admin-get-login');
         }
         
+    }
+    
+    public function getWorkExperience(){
+        return view('admin.work-experience');
+    }
+    
+    public function postWorkExperience(WorkExperienceFormRequest $request){
+        $work = new WorkExperience();
+        $work->start = $request->start;
+        $work->end = $request->end;
+        $work->company = $request->company;
+        $work->job_title = $request->job_title;
+        $work->description = $request->description;
+        $work->reference = $request->reference;
+        $work->phone = $request->phone;
+        $work->position = $request->position;
+        
+        $work->save();
+        
+        return redirect()->route('admin-get-work-experience')->with('status','Add new successfully !');
     }
 }

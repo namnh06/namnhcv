@@ -39,37 +39,6 @@
 				</form>
 			<!-- END RESPONSIVE QUICK SEARCH FORM -->
 			</li>
-			<li class="nav-item @yield('dashboard-active')">
-				<a href="javascript:;" class="nav-link nav-toggle">
-					<i class="icon-home"></i>
-					<span class="title">Dashboard</span>
-					<span class="selected"></span>
-					<span class="arrow open"></span>
-				</a>
-				<ul class="sub-menu">
-					<li class="nav-item @yield('dashboard-active')">
-						<a href="index.html" class="nav-link ">
-							<i class="icon-bar-chart"></i>
-							<span class="title">Dashboard 1</span>
-							<span class="selected"></span>
-						</a>
-					</li>
-					<li class="nav-item start ">
-						<a href="dashboard_2.html" class="nav-link ">
-							<i class="icon-bulb"></i>
-							<span class="title">Dashboard 2</span>
-							<span class="badge badge-success">1</span>
-						</a>
-					</li>
-					<li class="nav-item start ">
-						<a href="dashboard_3.html" class="nav-link ">
-							<i class="icon-graph"></i>
-							<span class="title">Dashboard 3</span>
-							<span class="badge badge-danger">5</span>
-						</a>
-					</li>
-				</ul>
-			</li>
 			<li class="heading">
 				<h3 class="uppercase">Features</h3>
 			</li>
@@ -249,6 +218,13 @@
 					<li class="nav-item @yield('download-resume-active') ">
 						<a href="{{route('admin-get-upload-resume')}}" class="nav-link ">
 							<span class="title">Upload Resume</span>
+						</a>
+					</li>
+				</ul>
+				<ul class="sub-menu">
+					<li class="nav-item @yield('work-experience-active') ">
+						<a href="{{route('admin-get-work-experience')}}" class="nav-link ">
+							<span class="title">Work Experience</span>
 						</a>
 					</li>
 				</ul>

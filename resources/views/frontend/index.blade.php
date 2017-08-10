@@ -1,5 +1,5 @@
 @extends('frontend.master')
-@section('title','Nam Nguyen Hai CV')
+@section('title','Nam Nguyen Hai')
 @section('content')
 
 
@@ -56,7 +56,7 @@
 								<li><a class="ripple-centered" href="https://twitter.com" target="_blank"><i class="rsicon rsicon-twitter"></i></a></li>
 								<li><a class="ripple-centered" href="https://www.linkedin.com" target="_blank"><i class="rsicon rsicon-linkedin"></i></a></li>
 								<li><a class="ripple-centered" href="https://plus.google.com" target="_blank"><i class="rsicon rsicon-google-plus"></i></a></li>
-								<li><a class="ripple-centered" href="https://dribbble.com" target="_blank"><i class="rsicon rsicon-dribbble"></i></a></li>
+								{{--<li><a class="ripple-centered" href="https://dribbble.com" target="_blank"><i class="rsicon rsicon-dribbble"></i></a></li>--}}
 								<li><a class="ripple-centered" href="https://www.instagram.com" target="_blank"><i class="rsicon rsicon-instagram"></i></a></li>
 							</ul>
 						</div>
@@ -64,8 +64,7 @@
 
 					<div class="section-txt-btn">
 						<p><a class="btn btn-lg btn-border ripple" target="_blank" href="{{route('download-resume')}}">Download Resume</a></p>
-						<p>Hello! I’m Nam Nguyen Hai. Web Developer specializing in back end development. Experienced with all stages of the development cycle for dynamic web projects. Well-versed in numerous programming languages including JavaScript,
-							SQL, and C. Stng background in project management and customer relations.</p>
+						<p>Hello! I’m Nam Nguyen Hai. Web Developer specializing in back end development. I have a passion for technology. So, after graduated at Da Nang University of Economics, i decided to become a website developer. Then, i'm here with my skills : PHP, SQL, HTML, CSS, JavaScript and some Framework.</p>
 					</div>
 				</div>
 			</section>
@@ -79,7 +78,7 @@
 							<div class="col-sm-6">
 								<div class="progress-bar">
 									<div class="bar-data">
-										<span class="bar-title">Wordpress</span>
+										<span class="bar-title">HTML5, CSS3, JavaScript</span>
 										<span class="bar-value">80%</span>
 									</div>
 									<div class="bar-line">
@@ -91,51 +90,51 @@
 							<div class="col-sm-6">
 								<div class="progress-bar">
 									<div class="bar-data">
-										<span class="bar-title">JavaScript</span>
-										<span class="bar-value">52%</span>
-									</div>
-									<div class="bar-line">
-										<span class="bar-fill" data-width="67%"></span>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="row">
-							<div class="col-sm-6">
-								<div class="progress-bar">
-									<div class="bar-data">
-										<span class="bar-title">Drupal</span>
-										<span class="bar-value">61%</span>
-									</div>
-									<div class="bar-line">
-										<span class="bar-fill" data-width="79%"></span>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-sm-6">
-								<div class="progress-bar">
-									<div class="bar-data">
-										<span class="bar-title">HTML & CSS</span>
-										<span class="bar-value">89%</span>
-									</div>
-									<div class="bar-line">
-										<span class="bar-fill" data-width="67%"></span>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="row">
-							<div class="col-sm-6">
-								<div class="progress-bar">
-									<div class="bar-data">
 										<span class="bar-title">PHP & MySQL</span>
-										<span class="bar-value">99%</span>
+										<span class="bar-value">80%</span>
 									</div>
 									<div class="bar-line">
-										<span class="bar-fill" data-width="54%"></span>
+										<span class="bar-fill" data-width="80%"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="progress-bar">
+									<div class="bar-data">
+										<span class="bar-title">PHP - Laravel Framework</span>
+										<span class="bar-value">80%</span>
+									</div>
+									<div class="bar-line">
+										<span class="bar-fill" data-width="80%"></span>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6">
+								<div class="progress-bar">
+									<div class="bar-data">
+										<span class="bar-title">English</span>
+										<span class="bar-value">85%</span>
+									</div>
+									<div class="bar-line">
+										<span class="bar-fill" data-width="85%"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="progress-bar">
+									<div class="bar-data">
+										<span class="bar-title">Self-Study</span>
+										<span class="bar-value">100%</span>
+									</div>
+									<div class="bar-line">
+										<span class="bar-fill" data-width="100%"></span>
 									</div>
 								</div>
 							</div>
@@ -144,10 +143,10 @@
 								<div class="progress-bar">
 									<div class="bar-data">
 										<span class="bar-title">Photoshop</span>
-										<span class="bar-value">97%</span>
+										<span class="bar-value">75%</span>
 									</div>
 									<div class="bar-line">
-										<span class="bar-fill" data-width="80%"></span>
+										<span class="bar-fill" data-width="75%"></span>
 									</div>
 								</div>
 							</div>
@@ -165,8 +164,8 @@
 						<div class="filter-inner">
 							<div class="filter-btn-group">
 								<button data-filter="*">All</button>
-								<button data-filter=".photography">Photography</button>
-								<button data-filter=".nature">Nature</button>
+								<button data-filter=".photography">Website</button>
+								<button data-filter=".nature">Others</button>
 							</div>
 							<div class="filter-bar">
 								<span class="filter-bar-line"></span>
@@ -329,73 +328,34 @@
 					<div class="timeline">
 						<div class="timeline-bar"></div>
 						<div class="timeline-inner clearfix">
+							@foreach($workLeft as $work)
 							<div class="timeline-box timeline-box-left">
 								<span class="dot"></span>
 								<div class="timeline-box-inner animate-right">
 									<span class="arrow"></span>
-									<div class="date">2014 - 2016</div>
-									<h3>PINEAPPLE</h3>
-									<h4>Full Stack developer</h4>
-									<p>Worked as part of a multi-disciplinary team, carrying out ad-hoc tasks as requested by the IT Manager. Had a specific brief to ensure the websites build for customer’s precisely matched their requirements.developers
-										and marketers.</p>
+									<div class="date">{{$work->start}} - {{$work->end}}</div>
+									<h3>{{$work->company}}</h3>
+									<h4>{{$work->job_title}}</h4>
+									<p>{!! $work->description !!}</p>
+									<i><h4><b>Reference : {{$work->reference}} - {{$work->phone}}</b></h4></i>
 								</div>
 							</div>
+							@endforeach
 
-							<div class="timeline-box timeline-box-right">
-								<span class="dot"></span>
-								<div class="timeline-box-inner animate-left">
-									<span class="arrow"></span>
-									<div class="date">2011 - 2014</div>
-									<h3>MACROSOOFT</h3>
-									<h4>Web Developer</h4>
-									<p>I was responsible for working on a range of projects, designing appealing websites and interacting on a daily basis with graphic designers, back-end developers and marketers.</p>
-								</div>
-							</div>
+								@foreach($workRight as $work)
+									<div class="timeline-box timeline-box-right">
+										<span class="dot"></span>
+										<div class="timeline-box-inner animate-left">
+											<span class="arrow"></span>
+											<div class="date">{{$work->start}} - {{$work->end}}</div>
+											<h3>{{$work->company}}</h3>
+											<h4>{{$work->job_title}}</h4>
+											<p>{!! $work->description !!}</p>
+											<i><h4><b>Reference : {{$work->reference}} - {{$work->phone}}</b></h4></i>
+										</div>
+									</div>
+								@endforeach
 
-							<div class="timeline-box timeline-box-left">
-								<span class="dot"></span>
-								<div class="timeline-box-inner animate-right">
-									<span class="arrow"></span>
-									<div class="date">2003 - 2006</div>
-									<h3>JOOJLE</h3>
-									<h4>Systems Analyst / Web Developer</h4>
-									<p>Rebuilt and enhanced existing ASP B2C site with ASP.NET 2.0 Framework and tools. Technology consists of ASP.NET 2.0 (C#), IIS, Microsoft SQL Server 2005, Stored Procedures & PayPal Instant Payment Notification.</p>
-								</div>
-							</div>
-
-							<div class="timeline-box timeline-box-right">
-								<span class="dot"></span>
-								<div class="timeline-box-inner animate-left">
-									<span class="arrow"></span>
-									<div class="date">2004 - 2008</div>
-									<h3>IBBBM</h3>
-									<h4>Webmaster / Web Developer</h4>
-									<p>Developed, managed, operated and promoted an Internet business.Handled customer support issues.Planned and managed business finances.</p>
-								</div>
-							</div>
-
-							<div class="timeline-box timeline-box-left">
-								<span class="dot"></span>
-								<div class="timeline-box-inner animate-right">
-									<span class="arrow"></span>
-									<div class="date">2003 - 2004</div>
-									<h3>HEADBOOK</h3>
-									<h4>Intern</h4>
-									<p>This was beginning of my career. Developed, managed, operated and promoted an Internet business.Handled customer support issues.</p>
-								</div>
-							</div>
-
-							<div class="timeline-box timeline-box-right">
-								<span class="dot"></span>
-								<div class="timeline-box-inner animate-left">
-									<span class="arrow"></span>
-									<div class="date">2000 - 2003</div>
-									<h3>UBEAR</h3>
-									<h4>Taxi Driver</h4>
-									<p>Driving from point A to point B and if necessary to point C and sometimes even to point R and point S. I was known as experienced driver. Once my passenger who was a web developer told me about his job and I have
-										made my decision at that moment to became a developer.</p>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
