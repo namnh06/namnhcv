@@ -214,27 +214,27 @@
 					<span class="title">Home</span>
 					<span class="arrow"></span>
 				</a>
-				<ul class="sub-menu">
+
 					<li class="nav-item @yield('download-resume-active') ">
 						<a href="{{route('admin-get-upload-resume')}}" class="nav-link ">
-							<span class="title">Upload1 Resume</span>
+							<span class="title">Upload Resume</span>
 						</a>
 					</li>
-				</ul>
-				<ul class="sub-menu">
+
+
 					<li class="nav-item @yield('work-experience-active') ">
 						<a href="{{route('admin-get-work-experience')}}" class="nav-link ">
 							<span class="title">Work Experience</span>
 						</a>
 					</li>
-				</ul>
-				<ul class="sub-menu">
+
+
 					<li class="nav-item @yield('education-experience-active') ">
 						<a href="{{route('admin-get-education-experience')}}" class="nav-link ">
 							<span class="title">Education</span>
 						</a>
 					</li>
-				</ul>
+				
 			</li>
 		</ul>
 		<!-- END SIDEBAR MENU -->
