@@ -456,7 +456,9 @@
 										<div class="timeline-box-inner animate-right">
 											<span class="arrow"></span>
 											<div class="date">
-												<span>{{$education->start}} - {{$education->end}}</span>
+												<span>{{$education->start}}
+													@if($education->end != '')- {{$education->end}}
+												@endif</span>
 											</div>
 											<h3>{{$education->certificate}}</h3>
 											<h4>{{$education->school}}</h4>
@@ -470,7 +472,8 @@
 										<div class="timeline-box-inner animate-left">
 											<span class="arrow"></span>
 											<div class="date">
-												<span>{{$education->start}} - {{$education->end}}</span>
+												<span>{{$education->start}}@if($education->end != '')- {{$education->end}}
+													@endif</span>
 											</div>
 											<h3>{{$education->certificate}}</h3>
 											<h4>{{$education->school}}</h4>

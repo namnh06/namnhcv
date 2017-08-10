@@ -1,7 +1,7 @@
 @extends('admin.template.template')
 
 
-@section('dashboard-active','start active open')
+@section('home-active','start active open')
 
 
 @section('main-content')

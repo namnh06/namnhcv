@@ -234,7 +234,7 @@
 							<span class="title">Education</span>
 						</a>
 					</li>
-				
+
 			</li>
 		</ul>
 		<!-- END SIDEBAR MENU -->
