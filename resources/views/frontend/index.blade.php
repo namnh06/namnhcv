@@ -712,15 +712,15 @@
 								<ul class="contact-list">
 									<li class="clearfix">
 										<strong>Address</strong>
-										<span>Belgium, Brussels, Liutte 27, BE</span>
+										<span>K01b/95 Le Trong Tan St, Thanh Khe District, Da Nang City, VN</span>
 									</li>
 									<li class="clearfix">
 										<strong>phone</strong>
-										<span><a href="tel:+12562548456">+1 256 254 84 56</a></span>
+										<span><a href="tel:+84932578992">+84 932 578 992</a></span>
 									</li>
 									<li class="clearfix">
 										<strong>E-mail</strong>
-										<span><a href="mailto:robertsmith@company.com">robertsmith@company.com</a></span>
+										<span><a href="mailto:namnh.website@gmail.com">namnh.website@gmail.com</a></span>
 									</li>
 								</ul>
 
