@@ -5,11 +5,12 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="title" content="Nam Nguyen Hai Resume">
+	<meta name="title" content="Nam Nguyen Hai">
+	<meta property="og:type" content="website" />
 	<meta name="description"
 		  content="Hey, it's me, Nam Nguyen Hai - Nam Coi, check out my website !">
 	<meta property="og:title" content="Nam Nguyen Hai Resume"/>
-	<meta property="og:image" content="asset/frontend/img/avatar.png" />
+	<meta property="og:image" content="http://namnh.website/asset/frontend/img/avatar.png" />
 	<title>@yield('title')</title>
 	<base href="{{asset('')}}">
 	<!-- Favicon -->
