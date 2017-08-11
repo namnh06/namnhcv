@@ -421,7 +421,7 @@
 											<h4>{{$work->job_title}}</h4>
 											<p>{!! $work->description !!}</p>
 											<i><h4>
-													<b>Reference : {{$work->reference}} - {{$work->phone}}</b>
+													<b>{{$work->reference}} - {{$work->phone}}</b>
 												</h4></i>
 										</div>
 									</div>
@@ -436,7 +436,7 @@
 											<h4>{{$work->job_title}}</h4>
 											<p>{!! $work->description !!}</p>
 											<i><h4>
-													<b>Reference : {{$work->reference}} - {{$work->phone}}</b>
+													<b>{{$work->reference}} - {{$work->phone}}</b>
 												</h4></i>
 										</div>
 									</div>
