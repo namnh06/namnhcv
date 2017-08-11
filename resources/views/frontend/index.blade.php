@@ -801,8 +801,8 @@
 								</ul>
 
 								<div id="map"
-									 data-latitude="50.84592"
-									 data-longitude="4.366859999999974"></div>
+									 data-latitude="16.054407"
+									 data-longitude="108.202167"></div>
 							</div>
 						</div>
 					</div>
