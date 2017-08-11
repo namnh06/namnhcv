@@ -27,8 +27,8 @@
 									</div>
 									<ul class="profile-list">
 										<li class="clearfix">
-											<strong class="title">Age</strong>
-											<span class="cont">26</span>
+											<strong class="title">D.O.B</strong>
+											<span class="cont">06-Oct-1992</span>
 										</li>
 										<li class="clearfix">
 											<strong class="title">Address</strong>
@@ -88,7 +88,7 @@
 						</p>
 						<p><a class="btn btn-lg btn-border ripple"
 							  target="_blank"
-							  href="https://drive.google.com/drive/folders/0B3eGj7-o9viqRmw2cnFFQjRJVFU?usp=sharing">Wanna See My Certificate ?</a>
+							  href="https://drive.google.com/drive/folders/0B3eGj7-o9viqRmw2cnFFQjRJVFU?usp=sharing">Wanna See Something ?</a>
 						</p>
 						<p>Hello! I’m Nam Nguyen Hai. Web Developer specializing in back end development. I have a passion for technology. So, after graduated at Da Nang University of Economics, i decided to become a website developer. Then, i'm here with my skills : PHP, SQL, HTML, CSS, JavaScript and some Framework.</p>
 					</div>
@@ -193,6 +193,10 @@
 					<h2 class="section-title">Portfolio</h2>
 
 					<div class="filter">
+						<p><a class="btn btn-lg btn-border ripple"
+							  target="_blank"
+							  href="https://github.com/namnh06">Check Out My GitHub <i class="fa fa-github fa-1x" aria-hidden="true"></i></a>
+						</p>
 						<div class="filter-inner">
 							<div class="filter-btn-group">
 								<button data-filter="*">All</button>
