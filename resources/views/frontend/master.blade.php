@@ -103,7 +103,7 @@
 				<li><a href="#portfolio">Portfolio</a></li>
 				<li><a href="#experience">Experience</a></li>
 				<li><a href="#education">Education</a></li>
-				<li><a href="#interests">Interesting</a></li>
+				<li><a href="#interests">Hobbies</a></li>
 				{{--<li>--}}
 					{{--<a href="#">Blog</a>--}}
 				{{--</li>--}}
@@ -121,7 +121,7 @@
 	<div class="widget-area">
 		<aside class="widget widget-profile">
 			<div class="profile-photo">
-				<img src="asset/frontend/img/uploads/rs-photo-v2.jpg"
+				<img src="asset/frontend/img/avatar-small.png"
 					 alt="Nam Nguyen Hai"/>
 			</div>
 			<div class="profile-info">
@@ -217,7 +217,7 @@
 									</li>
 									<li><a href="#education">Education</a>
 									</li>
-									<li><a href="#interests">Interesting</a>
+									<li><a href="#interests">Hobbies</a>
 									</li>
 									{{--<li>--}}
 										{{--<a href="#">Blog</a>--}}

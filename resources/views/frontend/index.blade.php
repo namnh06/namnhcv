@@ -14,7 +14,7 @@
 							<div class="row">
 								<div class="col-xs-5">
 									<div class="profile-photo">
-										<img src="asset/frontend/img/uploads/rs-photo-v1.jpg"
+										<img src="asset/frontend/img/avatar.png"
 											 alt="Nam Nguyen Hai"/></div>
 								</div>
 								<div class="col-xs-7">
@@ -493,7 +493,7 @@
 				</div>
 			</section>
 			<!-- #education -->
-			
+
 
 			<section id="interests" class="section section-interests">
 				<div class="animate-up">
@@ -543,14 +543,13 @@
 			<section id="contact" class="section section-contact">
 				<div class="animate-up">
 					<h2 class="section-title">Contact Me</h2>
-
 					<div class="row">
 						<div class="col-sm-6">
 							<div class="section-box contact-form">
 								<h3>Feel free to contact me</h3>
 
 								<form class="contactForm"
-									  action="php/contact_form.php"
+									  action="#"
 									  method="post">
 									<div class="input-field">
 										<input class="contact-name"
