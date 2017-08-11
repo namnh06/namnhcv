@@ -22,6 +22,7 @@
 	<link rel="stylesheet"
 		  type="text/css"
 		  href="https://fonts.googleapis.com/css?family=Fredoka+One">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet"
 		  type="text/css"
 		  href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic">
@@ -204,7 +205,7 @@
 				<div class="row">
 					<div class="col-sm-3 col-xs-6">
 						<a class="logo"
-						   href="{{route('index')}}"><span>Nam</span> Nguyen Hai</a>
+						   href="{{route('index')}}"><span>NAM</span> NGUYEN HAI</a>
 						<!-- <a class="head-logo" href=""><img src="asset/frontend/img/rs-logo.png" alt="RScard"/></a> -->
 					</div>
 

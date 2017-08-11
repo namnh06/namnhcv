@@ -500,33 +500,29 @@
 					<h2 class="section-title">My Interests</h2>
 
 					<div class="section-box">
-						<p>I have a keen interest in photography. I was vice-president of the photography club during my time at university, and during this period I organised a number of very successful exhibitions and events both on and off campus.
-							<br/>I also play the piano to grade 8 standard.</p>
+						<p>I have a keen interest in physical sports.
+							<br/>I like books and some activities outside.</p>
 
 						<ul class="interests-list">
 							<li>
-								<i class="map-icon map-icon-bicycling"></i>
-								<span>Bicycling</span>
+								<i class="rsicon rsicon-futbol-o"></i>
+								<span>Football is my favorite sport</span>
 							</li>
 							<li>
-								<i class="map-icon map-icon-movie-theater"></i>
-								<span>Watch Movies</span>
+								<i class="map-icon map-icon-gym"></i>
+								<span>Body Building</span>
 							</li>
 							<li>
-								<i class="map-icon map-icon-ice-skating"></i>
-								<span>Skating</span>
+								<i class="rsicon rsicon-users"></i>
+								<span>Communicate with People</span>
 							</li>
 							<li>
-								<i class="map-icon map-icon-shopping-mall"></i>
-								<span>Shopping</span>
+								<i class="rsicon rsicon-twitch"></i>
+								<span>I'm watching Twitch right now, lol !</span>
 							</li>
 							<li>
-								<i class="map-icon map-icon-tennis"></i>
-								<span>Playing Tennis</span>
-							</li>
-							<li>
-								<i class="map-icon map-icon-bowling-alley"></i>
-								<span>Playing Bowling</span>
+								<i class="rsicon rsicon-steam-square"></i>
+								<span>Esport</span>
 							</li>
 							<li>
 								<i class="map-icon map-icon-swimming"></i>
