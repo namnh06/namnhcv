@@ -7,8 +7,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="title" content="Nam Nguyen Hai Resume">
 	<meta name="description"
-		  content="Nam's website, this is my resume, check it out !!!">
+		  content="Hey, it's me, Nam Nguyen Hai - Nam Coi, check out my website !">
 	<meta property="og:title" content="Nam Nguyen Hai Resume"/>
+	<meta property="og:image" content="asset/frontend/img/avatar.png" />
 	<title>@yield('title')</title>
 	<base href="{{asset('')}}">
 	<!-- Favicon -->
