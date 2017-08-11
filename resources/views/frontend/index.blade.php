@@ -72,7 +72,6 @@
 									   href="https://plus.google.com"
 									   target="_blank"><i class="rsicon rsicon-google-plus"></i></a>
 								</li>
-								{{--<li><a class="ripple-centered" href="https://dribbble.com" target="_blank"><i class="rsicon rsicon-dribbble"></i></a></li>--}}
 								<li><a class="ripple-centered"
 									   href="https://www.instagram.com"
 									   target="_blank"><i class="rsicon rsicon-instagram"></i></a>
@@ -494,153 +493,7 @@
 				</div>
 			</section>
 			<!-- #education -->
-
-			<section id="clients" class="section section-clients">
-				<div class="animate-up">
-
-					<div class="clients-carousel">
-						<div class="client-logo">
-							<a href="http://market.envato.com"
-							   target="_blank"><img src="asset/frontend/img/uploads/logos/logo-envato.png"
-													title="envato"
-													alt="envato"/></a>
-						</div>
-
-						<div class="client-logo">
-							<img src="asset/frontend/img/uploads/logos/logo-angularjs.png"
-								 title="angular js"
-								 alt="angular js"/>
-						</div>
-
-						<div class="client-logo">
-							<a href="https://www.omniref.com/ruby/gems/teaspoon/0.7.9"
-							   target="_blank"><img src="asset/frontend/img/uploads/logos/logo-teaspoon.png"
-													title="teaspoon"
-													alt="teaspoon"/></a>
-						</div>
-
-						<div class="client-logo">
-							<a href="https://wordpress.com" target="_blank"><img
-										src="asset/frontend/img/uploads/logos/logo-wordpress.png"
-										title="wordpress"
-										alt="wordpress"/></a>
-						</div>
-
-						<div class="client-logo">
-							<a href="https://evernote.com" target="_blank"><img
-										src="asset/frontend/img/uploads/logos/logo-evernote.png"
-										title="evernote"
-										alt="evernote"/></a>
-						</div>
-
-						<div class="client-logo">
-							<a href="http://compass-style.org"
-							   target="_blank"><img src="asset/frontend/img/uploads/logos/logo-compass.png"
-													title="compass"
-													alt="compass"/></a>
-						</div>
-
-						<div class="client-logo">
-							<a href="http://getbootstrap.com"
-							   target="_blank"><img src="asset/frontend/img/uploads/logos/logo-bootstrap.png"
-													title="bootstrap"
-													alt="bootstrap"/></a>
-						</div>
-
-						<div class="client-logo">
-							<a href="http://jasmine.github.io"
-							   target="_blank"><img src="asset/frontend/img/uploads/logos/logo-jasmine.png"
-													title="jasmine"
-													alt="jasmine"/></a>
-						</div>
-
-						<div class="client-logo">
-							<a href="https://jquery.com" target="_blank"><img
-										src="asset/frontend/img/uploads/logos/logo-jquery.png"
-										title="jquery"
-										alt="jquery"/></a>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- #clients -->
-
-			<section id="references" class="section section-references">
-				<div class="animate-up">
-					<h2 class="section-title">References</h2>
-					<div class="section-box">
-						<ul class="ref-slider">
-							<li>
-								<div class="ref-box">
-									<div class="person-speech">
-										<p>I confirm that I have dealt with New Company Ltd since 1998. Their work has been a major factor in our website's success, helping it to become one of the most visited resources of its kind on the Internet.</p>
-									</div>
-									<div class="person-info clearfix">
-										<img class="person-img"
-											 src="asset/frontend/img/uploads/rs-avatar-60x60.jpg"
-											 alt="Headshot">
-										<div class="person-name-title">
-											<span class="person-name">Alexander Jokovich</span>
-											<span class="person-title">Modern LLC , HR</span>
-										</div>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="ref-box">
-									<div class="person-speech">
-										<p>I confirm that New Company Ltd has been a customer of ours since 1998, during which time they have always made payments reliably, in full and on time.</p>
-									</div>
-									<div class="person-info clearfix">
-										<img class="person-img"
-											 src="asset/frontend/img/uploads/rs-avatar-60x60.jpg"
-											 alt="Headshot">
-										<div class="person-name-title">
-											<span class="person-name">Alexander Jokovich</span>
-											<span class="person-title">Modern LLC , HR</span>
-										</div>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="ref-box">
-									<div class="person-speech">
-										<p>I have known Nam Nguyen Hai for 10 years as web developer. I can confirm that he is a man of great integrity, is extremely dedicated to his family and work, and is entirely peace-loving.</p>
-									</div>
-									<div class="person-info clearfix">
-										<img class="person-img"
-											 src="asset/frontend/img/uploads/rs-avatar-60x60.jpg"
-											 alt="Headshot">
-										<div class="person-name-title">
-											<span class="person-name">Alexander Jokovich</span>
-											<span class="person-title">Modern LLC , HR</span>
-										</div>
-									</div>
-								</div>
-							</li>
-						</ul>
-						<div class="ref-slider-nav">
-							<span id="ref-slider-prev"
-								  class="slider-prev"></span>
-							<span id="ref-slider-next"
-								  class="slider-next"></span>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- #references -->
-
-			<section id="text-section" class="section section-text">
-				<div class="animate-up animated">
-					<h2 class="section-title">Text Section</h2>
-					<div class="section-box">
-						<p>Hello! I’m Nam Nguyen Hai and this is custom editor section. You can add here any text or "Strikethrough" text and even you can add bulleted or numbered text and even you will be able to add blockquot text. You can align this
-							text to left/right/center. One of the most interesting options is to divide this section to "One half" "One Third" and "One Fourth". You can use this for Honors or Achievments or Awards sections. You can insert images and
-							photos right in this editor!</p>
-					</div>
-				</div>
-			</section>
-			<!-- #text-section -->
+			
 
 			<section id="interests" class="section section-interests">
 				<div class="animate-up">
@@ -685,7 +538,7 @@
 			</section>
 			<!-- #interests -->
 
-			
+
 
 			<section id="contact" class="section section-contact">
 				<div class="animate-up">
