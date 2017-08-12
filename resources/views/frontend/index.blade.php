@@ -61,6 +61,10 @@
 									   target="_blank"><i class="rsicon rsicon-facebook"></i></a>
 								</li>
 								<li><a class="ripple-centered"
+									   href="skype:namnh.website@gmail.com?chat"
+									   target="_blank"><i class="rsicon rsicon-skype"></i></a>
+								</li>
+								<li><a class="ripple-centered"
 									   href="https://twitter.com"
 									   target="_blank"><i class="rsicon rsicon-twitter"></i></a>
 								</li>

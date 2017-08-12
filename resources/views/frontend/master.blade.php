@@ -254,6 +254,10 @@
 					</a>
 				</li>
 				<li><a class="ripple-centered"
+					   href="skype:namnh.website@gmail.com?chat"
+					   target="_blank"><i class="rsicon rsicon-skype"></i></a>
+				</li>
+				<li><a class="ripple-centered"
 					   href=""
 					   target="_blank"><i class="rsicon rsicon-twitter"></i></a>
 				</li>
@@ -264,10 +268,6 @@
 				<li><a class="ripple-centered"
 					   href=""
 					   target="_blank"><i class="rsicon rsicon-google-plus"></i></a>
-				</li>
-				<li><a class="ripple-centered"
-					   href=""
-					   target="_blank"><i class="rsicon rsicon-dribbble"></i></a>
 				</li>
 				<li><a class="ripple-centered"
 					   href=""
