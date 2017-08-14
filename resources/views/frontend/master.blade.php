@@ -129,7 +129,7 @@
 			</div>
 			<div class="profile-info">
 				<h2 class="profile-title">Nam Nguyen Hai</h2>
-				<h3 class="profile-position">Developer and Startup entrepreneur</h3>
+				<h3 class="profile-position">Website Developer and Businessman</h3>
 			</div>
 		</aside>
 		<!-- .widget-profile -->

@@ -93,7 +93,8 @@
 							  target="_blank"
 							  href="https://drive.google.com/drive/folders/0B3eGj7-o9viqRmw2cnFFQjRJVFU?usp=sharing">Wanna See Something ?</a>
 						</p>
-						<p>Hello! I’m Nam Nguyen Hai. Web Developer specializing in back end development. I have a passion for technology. So, after graduated at Da Nang University of Economics, i decided to become a website developer. Then, i'm here with my skills : PHP, SQL, HTML, CSS, JavaScript and some Framework.</p>
+						<p>Hello! I’m Nam Nguyen Hai. I have got a Bachelor Degree in Business Administration in 2015, after graduated from Danang University of Economics, I spent 2 years on some website courses. Thus, I have a knowledge about HTML, CSS, JavaScript, PHP & SQL.
+						I am aspire to be a good manager, a good programmer in technology field, especially Website.</p>
 					</div>
 				</div>
 			</section>
