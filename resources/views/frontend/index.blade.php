@@ -108,7 +108,7 @@
 							<div class="col-sm-6">
 								<div class="progress-bar">
 									<div class="bar-data">
-										<span class="bar-title">HTML5, CSS3, JavaScript</span>
+										<span class="bar-title">HTML, CSS, JavaScript</span>
 										<span class="bar-value">80%</span>
 									</div>
 									<div class="bar-line">
